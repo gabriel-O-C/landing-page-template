@@ -9,6 +9,11 @@ export default {
   argTypes: {
     children: { type: 'string' },
   },
+  parameters: {
+    backgrounds: {
+      default: 'light',
+    },
+  },
 };
 
 export const Template = (args) => <Heading {...args} />;
