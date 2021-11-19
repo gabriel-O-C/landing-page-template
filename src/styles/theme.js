@@ -4,6 +4,9 @@ export const theme = {
     secondaryColor: '#dc143c',
     white: '#ffffff',
   },
-  fonts: {},
+  fonts: {
+    montSerrat: 'Montserrat',
+    openSans: 'Open Sans',
+  },
   spacings: {},
 };
